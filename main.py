@@ -5,7 +5,7 @@ def count_batteries_by_usage(cycles):
     "mediumCount": 0,
     "highCount": 0
 
-    if lowCount < 310:
+    if "lowCount" < 310:
          print("low")
     elif "mediumCount" < 310 and "mediumCount" > 929:
          print("medium")
